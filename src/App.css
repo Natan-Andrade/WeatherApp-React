@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  width: 100%;
+  max-width: 40rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 600px;
+  padding: 5rem 2.5rem;
+
+  border-radius: 1rem;
+  border: 1px solid transparent;
+
+  backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+  border-top-color: #ffffff47;
+  border-bottom-color: #ffffff47;
+  border-left-color: #ffffff2c;
+  border-right-color: #ffffff2c;
+}
+
+.card-number {
+  color: rgba(225, 225, 225, 0.8);
+  font-size: 5rem;
+}
+
+.icon {
+  filter: invert(100%) opacity(50%) !important;
+}
+
+.btn {
+  border-radius: 2rem;
+  border-color: #ffffff6c;
+  color: #fff;
+  box-shadow: 0rem 0rem 1.3rem rgba(0, 0, 0, 0.245);
+}
+
+.btn:hover {
+  border-radius: 2rem;
+  background-color: #ffffffa6;
+  transition: 1s;
+  color: black;
+}
+
+.btn:focus {
+  transition: 1s;
+  color: black;
+  background-color: #ffffffa6;
+  box-shadow: 0rem 0rem 1.3rem rgba(0, 0, 0, 0.245);
+}
+
+.cb1 {
+  background-color: rgba(225, 225, 225, 0.1);
+  /* background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.1)); */
+  color: #fff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  
+  background-image: url('https://www.xtrafondos.com/en/descargar.php?id=3350&resolucion=4000x3000');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
